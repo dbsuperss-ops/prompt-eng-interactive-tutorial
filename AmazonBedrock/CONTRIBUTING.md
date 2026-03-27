@@ -1,59 +1,54 @@
-# Contributing Guidelines
+# 기여 가이드라인
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+프로젝트에 기여하고자 하는 관심에 감사드립니다. 버그 보고, 새로운 기능, 수정 사항, 추가 문서 등 커뮤니티의 피드백과 기여를 매우 소중히 여깁니다.
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
+버그 보고나 기여에 효과적으로 대응하는 데 필요한 모든 정보를 갖추기 위해, 이슈나 풀 리퀘스트를 제출하기 전에 이 문서를 먼저 읽어 주세요.
 
 
-## Reporting Bugs/Feature Requests
+## 버그/기능 요청 보고
 
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+GitHub 이슈 트래커를 통해 버그를 보고하거나 기능을 제안하는 것을 환영합니다.
 
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
-reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
+이슈를 제출할 때, 다른 사람이 이미 해당 이슈를 보고했는지 확인하기 위해 기존의 열린 또는 최근에 닫힌 이슈를 확인하세요. 가능한 한 많은 정보를 포함해 주세요. 다음과 같은 세부 정보가 특히 유용합니다:
 
-* A reproducible test case or series of steps
-* The version of our code being used
-* Any modifications you've made relevant to the bug
-* Anything unusual about your environment or deployment
-
-
-## Contributing via Pull Requests
-Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
-
-1. You are working against the latest source on the *main* branch.
-2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
-3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
-
-To send us a pull request, please:
-
-1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass.
-4. Commit to your fork using clear commit messages.
-5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
-
-GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
-[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+* 재현 가능한 테스트 케이스 또는 단계
+* 사용 중인 코드 버전
+* 버그와 관련된 수정 사항
+* 환경이나 배포에 대한 특이한 사항
 
 
-## Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
+## 풀 리퀘스트를 통한 기여
+풀 리퀘스트를 통한 기여를 매우 환영합니다. 풀 리퀘스트를 보내기 전에 다음 사항을 확인하세요:
+
+1. *main* 브랜치의 최신 소스를 기반으로 작업하고 있는지 확인하세요.
+2. 기존의 열린 풀 리퀘스트 및 최근에 병합된 풀 리퀘스트를 확인하여 다른 사람이 이미 문제를 해결했는지 확인하세요.
+3. 중요한 작업을 논의하기 위해 이슈를 여세요 - 여러분의 시간이 낭비되지 않기를 바랍니다.
+
+풀 리퀘스트를 보내려면:
+
+1. 저장소를 포크하세요.
+2. 소스를 수정하세요; 기여하는 특정 변경 사항에 집중해 주세요. 코드 전체를 재형식화하면 변경 사항에 집중하기 어렵습니다.
+3. 로컬 테스트가 통과하는지 확인하세요.
+4. 명확한 커밋 메시지를 사용하여 포크에 커밋하세요.
+5. 풀 리퀘스트 인터페이스의 기본 질문에 답하며 풀 리퀘스트를 보내세요.
+6. 풀 리퀘스트에 보고된 자동화된 CI 실패 사항에 주의를 기울이고 대화에 계속 참여하세요.
+
+GitHub은 [저장소 포크](https://help.github.com/articles/fork-a-repo/) 및 [풀 리퀘스트 생성](https://help.github.com/articles/creating-a-pull-request/)에 대한 추가 문서를 제공합니다.
 
 
-## Code of Conduct
-This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
-opensource-codeofconduct@amazon.com with any additional questions or comments.
+## 기여할 것 찾기
+기존 이슈를 살펴보는 것이 기여할 사항을 찾는 좋은 방법입니다. 프로젝트는 기본적으로 GitHub 이슈 레이블(enhancement/bug/duplicate/help wanted/invalid/question/wontfix)을 사용하므로, 'help wanted' 이슈를 살펴보는 것이 시작하기 좋은 곳입니다.
 
 
-## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+## 행동 강령
+이 프로젝트는 [Amazon 오픈 소스 행동 강령](https://aws.github.io/code-of-conduct)을 채택했습니다.
+자세한 내용은 [행동 강령 FAQ](https://aws.github.io/code-of-conduct-faq)를 참조하거나 추가 질문이나 의견이 있으면 opensource-codeofconduct@amazon.com으로 연락하세요.
 
 
-## Licensing
+## 보안 이슈 알림
+이 프로젝트에서 잠재적인 보안 이슈를 발견하면 [취약성 보고 페이지](http://aws.amazon.com/security/vulnerability-reporting/)를 통해 AWS/Amazon Security에 알려주시기 바랍니다. 공개 GitHub 이슈를 **생성하지 마세요**.
 
-See the [LICENSE](LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
+
+## 라이선싱
+
+프로젝트의 라이선싱은 [LICENSE](LICENSE) 파일을 참조하세요. 귀하의 기여에 대한 라이선싱을 확인하도록 요청할 것입니다.

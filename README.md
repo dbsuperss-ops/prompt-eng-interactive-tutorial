@@ -1,58 +1,58 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial
+# Anthropic의 프롬프트 엔지니어링 대화형 튜토리얼에 오신 것을 환영합니다
 
-## Course introduction and goals
+## 과정 소개 및 목표
 
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.
+이 과정은 Claude 내에서 최적의 프롬프트를 엔지니어링하는 방법에 대한 포괄적인 단계별 이해를 제공하기 위해 설계되었습니다.
 
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
+**이 과정을 완료하면 다음을 할 수 있게 됩니다**:
+- 좋은 프롬프트의 기본 구조 마스터하기
+- 일반적인 실패 모드를 인식하고 이를 해결하기 위한 '80/20' 기술 배우기
+- Claude의 강점과 약점 이해하기
+- 일반적인 사용 사례를 위해 처음부터 강력한 프롬프트 만들기
 
-## Course structure and content
+## 과정 구조 및 내용
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
+이 과정은 프롬프트 작성 및 문제 해결을 직접 연습할 수 있는 많은 기회를 제공하도록 구성되어 있습니다. 과정은 **9개의 챕터와 함께 제공되는 연습 문제**로 나뉘어져 있으며, 더욱 고급 방법의 부록도 포함되어 있습니다. **챕터 순서대로 과정을 진행**하는 것이 좋습니다.
 
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing).
+**각 강의 하단에는 "예시 플레이그라운드" 영역**이 있어 강의의 예시를 자유롭게 실험하고 프롬프트를 변경하면 Claude의 응답이 어떻게 달라지는지 직접 확인할 수 있습니다. [답안지](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing)도 있습니다.
 
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
+참고: 이 튜토리얼은 Anthropic의 가장 작고 빠르며 저렴한 모델인 Claude 3 Haiku를 사용합니다. Anthropic에는 [두 가지 다른 모델](https://docs.anthropic.com/claude/docs/models-overview)인 Claude 3 Sonnet과 Claude 3 Opus가 있으며, 이들은 Haiku보다 더 지능적이며 Opus가 가장 지능적입니다.
 
-*This tutorial also exists on [Google Sheets using Anthropic's Claude for Sheets extension](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing). We recommend using that version as it is more user friendly.*
+*이 튜토리얼은 [Anthropic의 Claude for Sheets 확장 프로그램을 사용하는 Google Sheets](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing)에도 있습니다. 더 사용자 친화적이므로 그 버전을 사용하는 것을 권장합니다.*
 
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
+시작할 준비가 되면 `01_Basic Prompt Structure`로 이동하세요.
 
-## Table of Contents
+## 목차
 
-Each chapter consists of a lesson and a set of exercises.
+각 챕터는 강의와 연습 문제 세트로 구성됩니다.
 
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
+### 초급
+- **챕터 1:** 기본 프롬프트 구조
 
-- **Chapter 2:** Being Clear and Direct  
+- **챕터 2:** 명확하고 직접적으로 표현하기
 
-- **Chapter 3:** Assigning Roles
+- **챕터 3:** 역할 할당
 
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
+### 중급
+- **챕터 4:** 데이터와 지침 분리
 
-- **Chapter 5:** Formatting Output & Speaking for Claude
+- **챕터 5:** 출력 형식 지정 및 Claude를 위해 말하기
 
-- **Chapter 6:** Precognition (Thinking Step by Step)
+- **챕터 6:** 사전 인지 (단계별 사고)
 
-- **Chapter 7:** Using Examples
+- **챕터 7:** 예시 사용
 
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
+### 고급
+- **챕터 8:** 환각 방지
 
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
+- **챕터 9:** 복잡한 프롬프트 만들기 (산업 사용 사례)
+  - 처음부터 복잡한 프롬프트 만들기 - 챗봇
+  - 법률 서비스를 위한 복잡한 프롬프트
+  - **연습:** 금융 서비스를 위한 복잡한 프롬프트
+  - **연습:** 코딩을 위한 복잡한 프롬프트
+  - 축하합니다 및 다음 단계
 
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Search & Retrieval
+- **부록:** 표준 프롬프팅을 넘어서
+  - 프롬프트 연결
+  - 도구 사용
+  - 검색 및 검색
